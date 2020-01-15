@@ -24,21 +24,13 @@ class LangMap extends React.Component {
   }
 
   componentDidMount() {
-    fetch('/users')
-      .then(res => res.json())
-      .then(users => this.setState({ users }));
+    fetch("http://localhost:9000/langs")
+      .then(res => res.text())
+      .then(users => console.log(users))
+      .catch(e => console.log(e));
     // load marker json
-    //const pgp = require('pg-promise')(/* options */);
-    //var db = pgp('postgres://unwritten:password@localhost:5432/unwritten');
-    // db.one('SELECT * FROM language', 123)
-    //   .then(function (data) {
-    //     console.log('DATA:', data.value)
-    //   })
-    //   .catch(function (error) {
-    //     console.log('ERROR:', error)
-    //   });
         //.then(data => this.setState({ markers: data.items.map(v => new LatLng(v.lat, v.lng)) }));
-}
+  }
 
   render() {
     return (

@@ -3,13 +3,20 @@
 # dependencies
 frontend/node_modules
 frontend/.pnp
+react-backend/node_modules
+react-backend/.pnp
+node_modules
 .pnp.js
 
 # testing
 frontend/coverage
+react-backend/coverage
 
 # production
 frontend/build
+react-backend/build
+
+
 
 # misc
 .DS_Store

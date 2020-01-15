@@ -10,7 +10,6 @@ class App extends React.Component {
   }
   
   render() {
-    console.log("here");
     return (
       <div className="App">
         <this.map />

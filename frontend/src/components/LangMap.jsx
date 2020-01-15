@@ -1,6 +1,7 @@
 import React from 'react'
 import { Map, Marker, Popup, TileLayer } from 'react-leaflet'
-import L, { LatLng } from 'leaflet';
+import L from 'leaflet';
+//import { LatLng } from 'leaflet';
 
 delete L.Icon.Default.prototype._getIconUrl;
 
@@ -22,8 +23,11 @@ class LangMap extends React.Component {
   }
 
   componentDidMount() {
+    fetch('/index')
+      .then(res => res.json())
+      .then(users => console.log(users));
     // load marker json
-    const pgp = require('pg-promise')(/* options */);
+    //const pgp = require('pg-promise')(/* options */);
     //var db = pgp('postgres://unwritten:password@localhost:5432/unwritten');
     // db.one('SELECT * FROM language', 123)
     //   .then(function (data) {

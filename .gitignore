@@ -16,8 +16,6 @@ react-backend/coverage
 frontend/build
 react-backend/build
 
-
-
 # misc
 .DS_Store
 .env.local

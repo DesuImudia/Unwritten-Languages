@@ -17,15 +17,16 @@ class LangMap extends React.Component {
     this.state = {
       lat: 51.505,
       lng: -0.09,
-      zoom: 13
+      zoom: 13,
+      users: []
     }
     this.position = [this.state.lat, this.state.lng];
   }
 
   componentDidMount() {
-    fetch('/index')
+    fetch('/users')
       .then(res => res.json())
-      .then(users => console.log(users));
+      .then(users => this.setState({ users }));
     // load marker json
     //const pgp = require('pg-promise')(/* options */);
     //var db = pgp('postgres://unwritten:password@localhost:5432/unwritten');

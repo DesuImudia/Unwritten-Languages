@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import './leaflet/leaflet.css';
 import LangMap from './components/LangMap.jsx';
+import Mic from './components/Mic.jsx'
 
 class App extends React.Component {
   constructor() {
@@ -12,7 +13,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <this.map />
+        <Mic />
       </div>
     );
   }

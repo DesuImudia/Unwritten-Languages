@@ -1,4 +1,4 @@
-### App Walk-though
+### App Design Walk-though
 
 <img src="https://i.imgur.com/rbWpEP0.gif" width=500><br>
 

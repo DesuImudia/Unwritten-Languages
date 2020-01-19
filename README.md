@@ -1,6 +1,6 @@
 ### App Walk-though
 
-<img src="https://i.imgur.com/4ydKjku.gif" width=400><br>
+<img src="https://imgur.com/gallery/4ydKjku" width=400><br>
 
 ## To make things go:
 - install node, npm, python3, and postgresql. If you're on macOS, I recommend using homebrew (especially for postgres)

@@ -4,7 +4,7 @@
 
 ## About Saypio:
 
-Our project, Saypio, is a web-based platform that we hope enables the preservation and sharing of unwritten languages across the globe. Using just React,js, HTML/CSS, and SQL for now, the app itself records and stores audio files based on the given pronunciation, and then displays the origin on a digital map. We would potentially expand to documenting and sharing oral narrative stories because one can gain more of a contextual understanding of words and expressions in the form of storytelling. In terms of a long term vision, our main goals are to preserve history, honor tradition, educate the masses, foster community, connect generations, and appreciate cultural significance. 
+Our project, Saypio, is a web-based platform that we hope enables the preservation and sharing of unwritten languages across the globe. Using just React.js, HTML/CSS, and SQL for now, the app itself records and stores audio files based on the given pronunciation, and then displays the origin on a digital map. We would potentially expand to documenting and sharing oral narrative stories because one can gain more of a contextual understanding of words and expressions in the form of storytelling. In terms of a long term vision, our main goals are to preserve history, honor tradition, educate the masses, foster community, connect generations, and appreciate cultural significance. 
 
 “Analyzing these patterns is far from an esoteric academic exercise; it has real implications for our lives. The more we understand about how language functions, the better equipped we are to improve our therapies for communication disorders and our methods for language teaching.
 
